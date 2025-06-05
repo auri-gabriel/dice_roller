@@ -35,7 +35,7 @@ class _DiceRollerState extends State<DiceRoller> {
         TextButton(
           onPressed: rollDice,
           style: TextButton.styleFrom(
-            foregroundColor: Color.fromARGB(255, 149, 114, 74),
+            foregroundColor: const Color.fromARGB(255, 149, 114, 74),
             textStyle: const TextStyle(
               fontSize: 28,
             ),
